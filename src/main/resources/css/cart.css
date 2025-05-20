@@ -1,0 +1,25 @@
+.root {
+    -fx-font-family: 'Arial';
+    -fx-background-color: #f5f5f5;
+    -fx-padding: 20px;
+}
+
+.scroll-pane {
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-background-color: #ffffff;
+    -fx-padding: 10px;
+}
+
+.order-list {
+    -fx-spacing: 10px;
+    -fx-padding: 10px;
+}
+
+.order-item {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-padding: 5px 0;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 0 1px 0;
+}

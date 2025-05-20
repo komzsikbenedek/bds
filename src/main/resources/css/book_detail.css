@@ -1,0 +1,40 @@
+.root {
+    -fx-font-family: 'Arial';
+    -fx-background-color: #f5f5f5; /* Light grey background */
+    -fx-padding: 20px;
+}
+
+#titleLabel {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-alignment: center;
+    -fx-padding: 10px 0;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555;
+    -fx-padding: 5px 0;
+    -fx-wrap-text: true;
+}
+
+#buyButton {
+    -fx-background-color: #007bff; /* Blue button color */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-margin-top: 15px; /* Add spacing above the button */
+    -fx-alignment: center;
+}
+
+#buyButton:hover {
+    -fx-background-color: #0056b3; /* Darker blue on hover */
+}
+
+.vbox {
+    -fx-alignment: center;
+    -fx-spacing: 5px;
+}

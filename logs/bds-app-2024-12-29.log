@@ -1,0 +1,12 @@
+2024-12-29 19:40:55 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d5h24m51s672ms107µs700ns).
+2024-12-29 19:42:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-29 19:42:57 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c852c0f
+2024-12-29 19:42:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-29 20:06:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-29 20:06:35 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c852c0f
+2024-12-29 20:06:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-29 20:06:44 INFO  o.b.f.b.c.CreateAccountController - PersonCreateController initialized
+2024-12-29 20:06:44 INFO  o.b.f.b.c.CreateAccountController - PersonCreateController initialized
+2024-12-29 20:18:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-29 20:18:01 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c852c0f
+2024-12-29 20:18:01 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

@@ -1,0 +1,38 @@
+.root {
+    -fx-font-family: 'Arial';
+    -fx-background-color: #f9f9f9;
+}
+
+.vbox {
+    -fx-alignment: center;
+    -fx-spacing: 10px;
+    -fx-padding: 15px;
+}
+
+.radio-button {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-padding: 5px;
+}
+
+.radio-button:selected {
+    -fx-mark-color: #007bff;
+    -fx-text-fill: #007bff;
+}
+
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.button:pressed {
+    -fx-background-color: #003d80;
+}

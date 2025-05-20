@@ -1,0 +1,50 @@
+.root {
+    -fx-font-family: 'Arial';
+    -fx-background-color: #f4f4f4;
+}
+
+.text {
+    -fx-font-size: 20px;
+    -fx-text-fill: #333;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 0;
+    -fx-text-alignment: center;
+}
+
+.text-field, .password-field {
+    -fx-pref-width: 175px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-background-color: #fff;
+    -fx-alignment: center;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #66afe9;
+    -fx-background-color: #e6f7ff;
+}
+
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-padding: 4px 10px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.pane {
+    -fx-padding: 50px;
+    -fx-alignment: center;
+}
+
+.vbox {
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+    -fx-padding: 20px;
+}

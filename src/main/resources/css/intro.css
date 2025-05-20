@@ -1,0 +1,23 @@
+.root {
+    -fx-background-color: transparent;
+}
+
+#continueButton {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 5);
+}
+
+#continueButton:hover {
+    -fx-background-color: #0056b3;
+}
+
+#continueButton:pressed {
+    -fx-background-color: #004085;
+    -fx-effect: none;
+}

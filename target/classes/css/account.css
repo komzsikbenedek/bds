@@ -1,0 +1,45 @@
+.root {
+    -fx-font-family: 'Arial';
+    -fx-background-color: #f9f9f9;
+}
+
+.label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-padding: 10px 0;
+    -fx-alignment: center;
+}
+
+.label:only-child {
+    -fx-font-size: 18px;
+    -fx-text-fill: #555;
+    -fx-padding: 2px 0;
+}
+
+.button {
+    -fx-background-color: #007bff; /* Blue color for buttons */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3; /* Darker blue on hover */
+}
+
+.hbox {
+    -fx-spacing: 20px; /* Adjust spacing between buttons */
+}
+
+.vbox {
+    -fx-alignment: center;
+    -fx-spacing: 15px;
+    -fx-padding: 20px;
+}
+
+.region {
+    -fx-pref-height: 20px; /* Add space between button sections */
+}

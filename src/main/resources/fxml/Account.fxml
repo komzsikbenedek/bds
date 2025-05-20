@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="300" prefWidth="600" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.but.feec.bds.controllers.AccountController">
+    <stylesheets>
+        <URL value="@/css/account.css" />
+    </stylesheets>
+
+    <Label style="-fx-font-size: 22px; -fx-font-weight: bold;" text="Customer Profile" />
+
+    <HBox spacing="20" alignment="CENTER">
+        <VBox spacing="2" alignment="CENTER_LEFT">
+            <Label fx:id="firstNameLabel" style="-fx-font-size: 16px;" text="First Name:" />
+            <Label fx:id="lastNameLabel" style="-fx-font-size: 16px;" text="Last Name:" />
+            <Label fx:id="emailLabel" style="-fx-font-size: 16px;" text="Email:" />
+            <Label fx:id="telephoneLabel" style="-fx-font-size: 16px;" text="Telephone:" />
+            <Label fx:id="postalCodeLabel" style="-fx-font-size: 16px;" text="Postal Code:" />
+            <Label fx:id="streetLabel" style="-fx-font-size: 16px;" text="Street:" />
+            <Label fx:id="houseNumLabel" style="-fx-font-size: 16px;" text="House Num:" />
+        </VBox>
+    </HBox>
+
+    <!-- Buttons Section -->
+    <HBox spacing="20" alignment="CENTER"> <!-- Increased spacing -->
+        <Button fx:id="saveButton" onAction="#insertData" text="Insert Data" />
+        <Button fx:id="editButton" onAction="#editData" text="Edit Data" />
+    </HBox>
+
+    <!-- Order History Button -->
+    <VBox alignment="CENTER" spacing="10">
+        <Region prefHeight="20" /> <!-- Added spacing between buttons -->
+        <Button fx:id="cartButton" onAction="#showCart" text="View Cart" />
+        <Region prefHeight="10" /> <!-- Added spacing below Order History button -->
+    </VBox>
+
+</VBox>

@@ -1,0 +1,8 @@
+2025-01-04 12:41:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-04 12:42:00 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@28b46423
+2025-01-04 12:42:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-04 19:15:32 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-04 19:15:33 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c852c0f
+2025-01-04 19:15:33 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-04 19:17:12 INFO  o.b.f.b.c.CreateAccountController - PersonCreateController initialized
+2025-01-04 19:17:12 INFO  o.b.f.b.c.CreateAccountController - PersonCreateController initialized
